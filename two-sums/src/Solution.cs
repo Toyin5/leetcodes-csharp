@@ -1,7 +1,7 @@
 namespace twoSums.src;
 public static class Solution
 {
-    public static string TwoSum(int[] nums, int target)
+    public static int[] TwoSum(int[] nums, int target)
     {
         //This implements two sum in O(n^2) time
         int[] result = new int[2];
@@ -12,10 +12,10 @@ public static class Solution
                     result = [i, j];
                     break;
                 }
-        return Prettify(result);
+        return result;
     }
 
-    public static string TwoSumAdvanced(int[] nums, int target)
+    public static int[] TwoSumAdvanced(int[] nums, int target)
     {
         //define a hashmap of integers
         Dictionary<int, int> hashMap = [];
@@ -29,21 +29,7 @@ public static class Solution
                 hashMap.TryAdd(nums[i], i);
         }
 
-        return Prettify(result);
-    }
-
-    private static string Prettify(int[] nums)
-    {
-        string result = "[";
-        for (int i = 0; i < nums.Length; i++)
-        {
-            result += nums[i];
-
-            // Add a comma and space if it's not the last element
-            if (i < nums.Length - 1)
-                result += ",";
-        }
-        result += "]";
         return result;
     }
+
 }

@@ -13,6 +13,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "shared", "shared", "{D81EEA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prettify", "shared\Prettify\Prettify.csproj", "{29142837-E286-41FD-90F8-1D66EF11BA01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "valid-parentheses", "valid-parentheses\valid-parentheses.csproj", "{F5B1FC5B-BF87-462D-94CB-02418B99B2B0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,6 +40,10 @@ Global
 		{29142837-E286-41FD-90F8-1D66EF11BA01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29142837-E286-41FD-90F8-1D66EF11BA01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29142837-E286-41FD-90F8-1D66EF11BA01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5B1FC5B-BF87-462D-94CB-02418B99B2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5B1FC5B-BF87-462D-94CB-02418B99B2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5B1FC5B-BF87-462D-94CB-02418B99B2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5B1FC5B-BF87-462D-94CB-02418B99B2B0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{29142837-E286-41FD-90F8-1D66EF11BA01} = {D81EEA6C-C1EF-484A-B78D-F81BBAE8EC2D}
